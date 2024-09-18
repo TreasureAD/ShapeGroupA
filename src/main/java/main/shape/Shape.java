@@ -14,12 +14,15 @@ public class Shape {
         this.color = color;
     }
 
+    public Shape(){
+
+    }
     // Abstract methods for calculating area and perimeter
-    public static void calculateArea(){
+    public void calculateArea(){
 
     };
 
-    public static void calculatePerimeter(){
+    public void calculatePerimeter(){
 
     };
 
